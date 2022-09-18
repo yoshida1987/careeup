@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+// ・・・カラー・・・//
+$main-color: #1b1b1b;
+// ・・・カラー・・・//
+
+body {
+    color: $main-color;
+}
+h1, h2, h3, h4, p {
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+ul, ol {
+    margin: 0 auto;
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.inner {
+    max-width: 1070px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+input[type=submit] {
+    padding: 0;
+    border: none;
+    outline: 0;
+}
